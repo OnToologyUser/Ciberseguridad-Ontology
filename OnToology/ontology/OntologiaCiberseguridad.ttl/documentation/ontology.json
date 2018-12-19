@@ -34,6 +34,13 @@
 }, {
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Clasificacion"
+  }, {
+    "@language" : "en",
+    "@value" : "Classification"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
   } ]
@@ -61,6 +68,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptCPV",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeCPV"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionCPV"
   } ],
@@ -71,6 +81,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIPC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeIPC"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionIPC"
   } ],
@@ -81,6 +94,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIncibe",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeIncibe"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionIncibe"
   } ],
@@ -91,6 +107,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptInteco",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeInteco"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionInteco"
   } ],
@@ -101,6 +120,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptNCL",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeNCL"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionNCL"
   } ],
@@ -111,8 +133,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeCPV",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "ClasificacionCPV"
+  }, {
+    "@language" : "en",
+    "@value" : "ClassificationCPV"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -121,8 +146,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIPC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "ClasificacionIPC"
+  }, {
+    "@language" : "en",
+    "@value" : "ClassificationIPC"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -131,8 +159,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIncibe",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "ClasificacionIncibe"
+  }, {
+    "@language" : "en",
+    "@value" : "ClassificationIncibe"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -141,11 +172,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeInteco",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : ""
+    "@language" : "es",
+    "@value" : "ClasificacionInteco"
   }, {
     "@language" : "en",
-    "@value" : "ClasificacionInteco"
+    "@value" : "ClassificationInteco"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -154,8 +185,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeNCL",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "ClasificacionNCL"
+  }, {
+    "@language" : "en",
+    "@value" : "ClassificationNCL"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -164,8 +198,11 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeUNSPSC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "ClasificacionUNSPSC"
+  }, {
+    "@language" : "en",
+    "@value" : "ClassificationUNSPSC"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification"
@@ -174,6 +211,9 @@
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptUNSPSC",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ClassificationCodeUNSPSC"
+  }, {
     "@language" : "es",
     "@value" : "CodigodeClasificacionUNSPSC"
   } ],
@@ -384,14 +424,13 @@
 }, {
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadhasClassificationCodeofPatent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "hasClassificationCodeOfPatent"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadPattentApplication"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasClassificationCodeOfPatent"
+  }, {
     "@language" : "es",
     "@value" : "tieneCodigodeClasificacion"
   } ],
@@ -401,14 +440,13 @@
 }, {
   "@id" : "http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadhasClassificationCodeofTender",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "hasClassificationCodeOfTender"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://purl.org/procurement/public-contracts#Tender"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasClassificationCodeOfTender"
+  }, {
     "@language" : "es",
     "@value" : "tieneCodigodeClasificacion"
   } ],

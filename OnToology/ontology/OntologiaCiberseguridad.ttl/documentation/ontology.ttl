@@ -82,16 +82,16 @@ Edna Ruckhaus (OEG-UPM)""" ;
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadhasClassificationCodeofPatent> rdf:type owl:ObjectProperty ;
                                                                                          rdfs:domain <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadPattentApplication> ;
                                                                                          rdfs:range <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                                         rdfs:comment "hasClassificationCodeOfPatent"@en ;
-                                                                                         rdfs:label "tieneCodigodeClasificacion"@es .
+                                                                                         rdfs:label "hasClassificationCodeOfPatent"@en ,
+                                                                                                    "tieneCodigodeClasificacion"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadhasClassificationCodeofTender
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadhasClassificationCodeofTender> rdf:type owl:ObjectProperty ;
                                                                                          rdfs:domain <http://purl.org/procurement/public-contracts#Tender> ;
                                                                                          rdfs:range <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                                         rdfs:comment "hasClassificationCodeOfTender"@en ;
-                                                                                         rdfs:label "tieneCodigodeClasificacion"@es .
+                                                                                         rdfs:label "hasClassificationCodeOfTender"@en ,
+                                                                                                    "tieneCodigodeClasificacion"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadinvolves
@@ -198,7 +198,9 @@ owl:topObjectProperty rdfs:domain <http://xmlns.com/foaf/0.1/Organization> ;
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> rdf:type owl:Class ;
-                                                                          rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+                                                                          rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                                                          rdfs:label "Clasificacion"@es ,
+                                                                                     "Classification"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode
@@ -213,74 +215,85 @@ owl:topObjectProperty rdfs:domain <http://xmlns.com/foaf/0.1/Organization> ;
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptCPV
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptCPV> rdf:type owl:Class ;
                                                                       rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                      rdfs:label "CodigodeClasificacionCPV"@es .
+                                                                      rdfs:label "ClassificationCodeCPV"@en ,
+                                                                                 "CodigodeClasificacionCPV"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIPC
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIPC> rdf:type owl:Class ;
                                                                       rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                      rdfs:label "CodigodeClasificacionIPC"@es .
+                                                                      rdfs:label "ClassificationCodeIPC"@en ,
+                                                                                 "CodigodeClasificacionIPC"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIncibe
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptIncibe> rdf:type owl:Class ;
                                                                          rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                         rdfs:label "CodigodeClasificacionIncibe"@es .
+                                                                         rdfs:label "ClassificationCodeIncibe"@en ,
+                                                                                    "CodigodeClasificacionIncibe"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptInteco
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptInteco> rdf:type owl:Class ;
                                                                          rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                         rdfs:label "CodigodeClasificacionInteco"@es .
+                                                                         rdfs:label "ClassificationCodeInteco"@en ,
+                                                                                    "CodigodeClasificacionInteco"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptNCL
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptNCL> rdf:type owl:Class ;
                                                                       rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                      rdfs:label "CodigodeClasificacionNCL"@es .
+                                                                      rdfs:label "ClassificationCodeNCL"@en ,
+                                                                                 "CodigodeClasificacionNCL"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeCPV
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeCPV> rdf:type owl:Class ;
                                                                             rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                            rdfs:label "ClasificacionCPV"@en .
+                                                                            rdfs:label "ClasificacionCPV"@es ,
+                                                                                       "ClassificationCPV"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIPC
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIPC> rdf:type owl:Class ;
                                                                             rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                            rdfs:label "ClasificacionIPC"@en .
+                                                                            rdfs:label "ClasificacionIPC"@es ,
+                                                                                       "ClassificationIPC"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIncibe
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeIncibe> rdf:type owl:Class ;
                                                                                rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                               rdfs:label "ClasificacionIncibe"@en .
+                                                                               rdfs:label "ClasificacionIncibe"@es ,
+                                                                                          "ClassificationIncibe"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeInteco
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeInteco> rdf:type owl:Class ;
                                                                                rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                               rdfs:label ""@en ,
-                                                                                          "ClasificacionInteco"@en .
+                                                                               rdfs:label "ClasificacionInteco"@es ,
+                                                                                          "ClassificationInteco"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeNCL
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeNCL> rdf:type owl:Class ;
                                                                             rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                            rdfs:label "ClasificacionNCL"@en .
+                                                                            rdfs:label "ClasificacionNCL"@es ,
+                                                                                       "ClassificationNCL"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeUNSPSC
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptSchemeUNSPSC> rdf:type owl:Class ;
                                                                                rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassification> ;
-                                                                               rdfs:label "ClasificacionUNSPSC"@en .
+                                                                               rdfs:label "ClasificacionUNSPSC"@es ,
+                                                                                          "ClassificationUNSPSC"@en .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptUNSPSC
 <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadConceptUNSPSC> rdf:type owl:Class ;
                                                                          rdfs:subClassOf <http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadClassificationCode> ;
-                                                                         rdfs:label "CodigodeClasificacionUNSPSC"@es .
+                                                                         rdfs:label "ClassificationCodeUNSPSC"@en ,
+                                                                                    "CodigodeClasificacionUNSPSC"@es .
 
 
 ###  http://ciberseg.linkeddata.es/def/OntologiaCiberseguridadFunctionality
